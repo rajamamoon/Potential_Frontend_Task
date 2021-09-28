@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    div.head-navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+    }
+
+    .side-content {
+        order: 1;
+    }
+
+    .side-nav {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-nav-list {
+        display: flex;
+        align-self: center;
+    }
+
+    .side-nav-list li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    div.side-nav p {
+        position: absolute;
+        bottom: 60px;
+    }
+
+    .side-content .py-4,
+    .side-content .py-2 {
+        display: none;
+    }
+
+    div.carasol-content {
+        height: auto;
+        border: none;
+    }
+
+    .images-slider-container {
+        display: flex;
+        justify-content: center;
+        max-width: 550px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .images-slider-img {
+        margin-bottom: -70px;
+    }
+
+    div.carasoul-slider,
+    div.lander-area,
+    .images-slider-img,
+    .innerslider {
+        height: auto;
+    }
+
+    div.lander-area {
+        padding: 0;
+    }
+
+    div.carasoul-slider {
+        position: static;
+    }
+
+    div.content-slider-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    div.controler-slide {
+        bottom: 0px;
+    }
+
+    div.content-slider-text p {
+        text-align: center;
+        margin: 15px 0 30px;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .header-menu {
+        display: none;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 767.98px) {
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+    div.sign-buttons button.form-button {
+        padding: 9px 15px;
+    }
+
+    .header-menu--mobile {
+        width: 180px;
+    }
+
+    div.carosol-contentmark {
+        padding: 80px 20px 120px 20px;
+    }
+
+    div#carouselFade div.carousel-indicators {
+        bottom: 80px;
+    }
+
+    .images-slider-img {
+        margin-bottom: -50px;
+    }
+
+    div.content-slider-text h1,
+    div.content-slider-text h2 {
+        font-size: 36px;
+    }
+
+    div.side-nav {
+        padding: 10px 20px;
+    }
+
+    div.side-nav p {
+        left: 20px;
+    }
+}
